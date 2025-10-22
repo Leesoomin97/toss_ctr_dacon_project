@@ -1,0 +1,55 @@
+# ------------------------------
+# 📦 Data & Model Artifacts
+# ------------------------------
+*.csv
+*.parquet
+*.pkl
+*.npy
+*.npz
+*.joblib
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# ------------------------------
+# 🧠 Notebook / Experiment Cache
+# ------------------------------
+.ipynb_checkpoints/
+__pycache__/
+*.log
+*.tmp
+*.bak
+*.swp
+*.out
+
+# ------------------------------
+# ⚙️ System & Editor Files
+# ------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VSCode & Jupyter
+.vscode/
+.env
+.venv/
+venv/
+*.code-workspace
+
+# ------------------------------
+# 🧰 Local or Private Folders
+# ------------------------------
+/data/
+/local/
+/outputs/
+/checkpoints/
+/wandb/
+/mlruns/
+
+# ------------------------------
+# 🧪 Environment / Configs
+# ------------------------------
+*.json
+*.yaml
+!environment.yml   # environment.yml만 예외적으로 포함
